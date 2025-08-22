@@ -28,16 +28,4 @@ export default defineConfig(async () => ({
       ignored: ["**/src-tauri/**"],
     },
   },
-  resolve: {
-    alias: {
-      "@/app": "/src/app",
-      "@": "/src",
-      "@/shared": "/src/shared",
-      "@/pages": "/src/pages",
-      "@/entities": "/src/entities",
-      "@/widgets": "/src/widgets",
-      "@/features": "/src/features",
-      "@/tauri-apps/api": "@tauri-apps/api/tauri",
-    },
-  }
 }));

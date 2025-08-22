@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    wespeak_lib::run()
+    desktop_app_lib::run()
 }

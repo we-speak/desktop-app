@@ -1,0 +1,21 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 22vw; /* Set the width of the sidebar */
+  min-width: 10vw;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  color: red;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px; /* Add padding to links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 25px; /* Increase font size */
+  color: #818181; /* Gray color */
+  display: block; /* Make the links appear below each other */
+}
