@@ -1,0 +1,59 @@
+.profileCard{
+    margin-left: 1vw;
+    ::shadow {
+        background-color: #2d297f;
+    }
+}
+
+
+.profile-img {
+    width: 5vw;
+    height: 5vw;
+    border-radius:10%;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    object-fit: cover;
+}
+
+.profile-header {
+    display:flex;
+    
+}
+
+.profile-name-container {
+    margin-top: 1vh;
+}
+.profile-name-text {
+    margin-bottom: 1.5vh;
+    color:#cdddf5;
+    font-family: "Montesserat", sans-serif;
+}
+
+.profile-username {
+    font-size: 1rem;
+    color: #e9ecf0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+.img-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 1vw;
+
+}
+.online-dot{
+    position:absolute;
+    top: 77%;
+
+    left:85%;
+    width: 1.5vw;                 /* размер можно менять */
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #219453, #34f9a1);
+    margin-right: 0.5vw;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+
+
+
+}
